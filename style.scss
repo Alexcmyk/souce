@@ -1,0 +1,62 @@
+@import "typography";
+@import "reset";
+
+body {
+  font-family: "Space Mono", monospace;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 0 100px;
+}
+
+header {
+  padding-top: 150px;
+}
+
+section {
+  margin-bottom: 90px;
+}
+
+.callout {
+  background-color: #fff;
+  color: #000;
+  padding: 14px 27px;
+  margin-top: 50px;
+}
+
+img.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+section.about-text {
+  margin: 175px 0 100px 0;
+  p {
+    max-width: 370px;
+  }
+}
+
+section.image-one {
+  max-width: 1100px;
+
+  img {
+    max-width: 100%;
+  }
+
+  p {
+    width: 100%;
+  }
+}
+
+section.image-two {
+  max-width: 630px;
+
+  img {
+    max-width: 100%;
+  }
+
+  p {
+    width: 100%;
+  }
+}
