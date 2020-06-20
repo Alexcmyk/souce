@@ -159,6 +159,7 @@ body {
 
 header {
   padding-top: 150px;
+  margin-bottom: 170px;
 }
 
 section {
@@ -175,10 +176,6 @@ section {
 img.logo {
   max-width: 100%;
   height: auto;
-}
-
-section.about-text {
-  margin: 175px 0 100px 0;
 }
 
 section.about-text p {
